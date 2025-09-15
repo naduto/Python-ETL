@@ -66,7 +66,7 @@ The data warehouse follows a **star schema** design:
    ```bash
   CREATE DATABASE StudentPerformanceDW;
   USE StudentPerformanceDW;
-  -- Run table creation script
+
 ### 3. Run the ETL Pipeline
   Open and execute the Jupyter Notebook:
   ```bash
