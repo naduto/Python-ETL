@@ -71,4 +71,22 @@ The data warehouse follows a **star schema** design:
   Open and execute the Jupyter Notebook:
   ```bash
   jupyter notebook ETL.ipynb
+---
+## 📂 Project Structure  
+├── data/
+│ ├── students.txt # Student data (CSV format with "|" delimiter)
+│ ├── api_grades.json # Grades data (JSON)
+│ ├── courses.db # Courses database (SQLite)
+├── ETL.ipynb # ETL pipeline (Python Jupyter Notebook)
+├── create_tables.sql # SQL script for schema creation
+├── erd.png # ERD diagram (star schema)
+└── README.md # Project documentation
+
+---
+
+## 🚀 Future Improvements  
+- Automate ETL execution with **Airflow** or **Prefect**.  
+- Add **data validation and logging**.  
+- Support for **incremental loads**.  
+- Visualization dashboards (e.g., **Power BI / Tableau**).  
 
