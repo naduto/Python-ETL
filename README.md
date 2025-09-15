@@ -68,11 +68,12 @@ Run the SQL script in SQL Server Management Studio (SSMS):
 CREATE DATABASE StudentPerformanceDW;
 USE StudentPerformanceDW;
 -- Run table creation script
-
+```
 ### 3. Run the ETL Pipeline
   Open and execute the Jupyter Notebook:
   ```bash
   jupyter notebook ETL.ipynb
+```
 ---
 ## 📂 Project Structure  
 ├── data/
