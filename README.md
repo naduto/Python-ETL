@@ -61,11 +61,13 @@ The data warehouse follows a **star schema** design:
   ```bash
   pip install pandas pyodbc sqlalchemy
   
-### 2. Create Database & Tables
-  Run the SQL script in SQL Server Management Studio (SSMS): 
-   ```bash
-  CREATE DATABASE StudentPerformanceDW;
-  USE StudentPerformanceDW;
+### 2. Create Database & Tables  
+Run the SQL script in SQL Server Management Studio (SSMS):  
+
+```sql
+CREATE DATABASE StudentPerformanceDW;
+USE StudentPerformanceDW;
+-- Run table creation script
 
 ### 3. Run the ETL Pipeline
   Open and execute the Jupyter Notebook:
