@@ -76,6 +76,7 @@ USE StudentPerformanceDW;
 ```
 ---
 ## 📂 Project Structure  
+```
 ├── data/
 │ ├── students.txt # Student data (CSV format with "|" delimiter)
 │ ├── api_grades.json # Grades data (JSON)
@@ -84,7 +85,7 @@ USE StudentPerformanceDW;
 ├── create_tables.sql # SQL script for schema creation
 ├── erd.png # ERD diagram (star schema)
 └── README.md # Project documentation
-
+```
 ---
 
 ## 🚀 Future Improvements  
